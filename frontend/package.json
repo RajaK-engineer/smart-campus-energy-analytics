@@ -1,0 +1,10 @@
+{
+  "name": "smart-campus-energy-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Placeholder frontend for the Smart Campus Energy Analytics Platform. Replace with the React + Vite app.",
+  "scripts": {
+    "dev": "npx --yes serve public",
+    "build": "node build.mjs"
+  }
+}
