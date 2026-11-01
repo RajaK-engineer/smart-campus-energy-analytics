@@ -1,0 +1,27 @@
+{
+  "name": "smart-campus-energy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Campus Energy Analytics Platform for Autonomous Building Management and HVAC Load Curtailment",
+  "scripts": {
+    "start": "npm --prefix frontend run dev",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "backend": "cd backend && python -m uvicorn main:app --reload --port 8000",
+    "frontend": "npm --prefix frontend run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "energy-analytics",
+    "smart-campus",
+    "hvac-curtailment",
+    "iot-simulation"
+  ],
+  "author": "RAJA K (7376241CS335)"
+}
